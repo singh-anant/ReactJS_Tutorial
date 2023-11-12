@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReactJS-Tutorial</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- <h1>Hello World 🌎🌎</h1> -->
+      <div id="root">
+        <!-- Here this h1 will get replaced by  root.render() and it is done very fast..-->
+        <h1>This is h1 from index.HTML</h1>
+      </div>
+      <!--   <script>
+        // These are the powers of our JS Browser but our browser does not understand React.
+        var rootDiv = document.getElementById("root");
+        var h1 = document.createElement("h1");
+        h1.innerText = "Hello World from JS 🌎🌎";
+        rootDiv.appendChild(h1);
+      </script> -->
+      <!-- This is the first way to inject React in our project... -->
+      <script
+        crossorigin
+        src="https://unpkg.com/react@18/umd/react.development.js"
+      ></script>
+      <script
+        crossorigin
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      ></script>
+      <!--   <script>
+        const h1 = React.createElement("h1", {}, "Hello World from React 🌎🌎");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(h1);
+      </script> -->
+      <script src="App.js"></script>
+    </div>
+  </body>
+</html>
