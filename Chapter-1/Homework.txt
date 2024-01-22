@@ -1,17 +1,27 @@
 Q1>What is CDN?
 COntent Delivery Network-A place where our react is hosted.
-A content delivery network (CDN) is a geographically distributed group o
+A content delivery network (CDN) is a geographically distributed group of
 servers that caches content close to end users. A CDN allows for the 
 quick transfer of assets needed for loading Internet content, including 
 HTML pages, JavaScript files, stylesheets, images, and videos.
 
 
 Q2>What is crossorigin?
-
+The term "cross-origin" refers to interactions between web pages from different origins. An origin is defined by the combination of a scheme (such as HTTP or HTTPS), domain, and port. When a web page makes a request to a different origin than the one that served the web page, 
+it is considered a cross-origin request.
 Q3>What is CORS??
-Cors is a special mechanism that uses HTTP headers to tell that weather one web application can share some resourses to some 
+Cors is a special mechanism that uses HTTP headers to tell that weather one web application can share some resources to some 
 other web application or not.In same origin resources can be shared.
 
 Q4>What is origin??
 Different domain means different origin we could say that.
+
+Q5>What is emmet??
+It is use to generate some basic syntax quickly.
+
+Browser does not know any react.
+Most costly operation in web app is when dom is changed.
+Order of the file matters.(Talking about CDN links)-Must be in sequence.
+
+
 
